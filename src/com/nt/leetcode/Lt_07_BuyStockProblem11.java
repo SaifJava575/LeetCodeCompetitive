@@ -1,6 +1,6 @@
 package com.nt.leetcode;
 
-public class LTt_07_BuyStockProblem11 {
+public class Lt_07_BuyStockProblem11 {
 
 	// T(C)=O(n) and s(c)=o(1)
 	public static int maxProfit(int[] prices) {
