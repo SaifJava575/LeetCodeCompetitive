@@ -1,5 +1,7 @@
 package com.nt.leetcode;
 
+import java.time.LocalDate;
+
 public class Lt_28_IsSubSequence {
 
 	// T(C)=O(n) and S(C)=O(1)
@@ -19,6 +21,11 @@ public class Lt_28_IsSubSequence {
 	}
 
 	public static void main(String[] args) {
+
+		LocalDate currentDate = LocalDate.now();
+		System.out.println("Current Date: " + currentDate);
+		
+		
 		String s = "abc", t = "ahbgdc";
 		if (isSubsequence(s, t))
 			System.out.println("Yes");
